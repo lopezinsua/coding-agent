@@ -1,0 +1,23 @@
+# Credentials — NEVER commit these
+.env
+*.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Temp clones created by the agent
+*_tmp/
+/tmp/
+
+# Internal project notes
+INSTRUCCIONES/
